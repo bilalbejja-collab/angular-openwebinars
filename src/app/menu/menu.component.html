@@ -1,0 +1,7 @@
+<ul id="menu">
+  <li><span> </span></li>
+  <li routerLink="/listado"><span>PRODUCTOS</span></li>
+  <li routerLink="/nosotros"><span>ACERCA DE</span></li>
+  <li id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login"><span>Acceso</span></li>
+  <li id="acceso" *ngIf="miToken != 0" class="acceso" (click)="logout()"><span><strong>Usuario:</strong> {{ nombreUsuario }}</span></li>
+</ul>

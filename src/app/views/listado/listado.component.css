@@ -1,0 +1,12 @@
+#listado {
+  background-color: rgb(228, 183, 200);
+  height: 900px;
+}
+
+#listado h2 {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}

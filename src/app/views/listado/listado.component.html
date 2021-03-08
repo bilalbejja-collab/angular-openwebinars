@@ -1,0 +1,4 @@
+<div id="listado">
+  <h2>Listado de productos</h2>
+  <app-entrada *ngFor="let entrada of listadoEntradas['data']" [entrada]="entrada" (click)="mostrarNombre(entrada.name)"></app-entrada>
+</div>
